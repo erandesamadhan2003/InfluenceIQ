@@ -4,7 +4,7 @@ import { FiMenu, FiX } from "react-icons/fi";
 
 const user = {
   name: "John Doe",
-  isAdmin: false, // Change to true for admin
+  isAdmin: false, 
 };
 
 const handleLogout = () => {
@@ -56,7 +56,7 @@ export const NavBar = () => {
         {!isAuthenticated ? (
           <>
             <Link to="/login" className="px-4 py-2 border border-blue-400 rounded hover:bg-blue-500 hover:text-white transition">Login</Link>
-            <Link to="/register" className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition">Register</Link>
+            <Link to="/signup" className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition">Register</Link>
           </>
         ) : (
           <button onClick={handleLogout} className="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600 transition">Logout</button>

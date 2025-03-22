@@ -16,7 +16,13 @@ export const Footer = () => {
         <div>
           <h3 className="text-xl font-semibold text-white">Quick Links</h3>
           <ul className="mt-3 space-y-2">
-            {["Home", "Rankings", "About", "Contact"].map((link) => (
+            <a
+              href='/'
+              className="hover:text-blue-400 transition duration-300"
+            >
+              Home
+            </a>
+            {["Rankings", "About", "Contact"].map((link) => (
               <li key={link}>
                 <a
                   href={`/${link.toLowerCase()}`}

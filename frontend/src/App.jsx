@@ -8,6 +8,7 @@ import { Signup } from './components/auth/Signup'
 import { AppLayout } from './components/Layout/AppLayout'
 import { About } from './components/About'
 import { Contact } from './components/Contact'
+import { DashBoard } from './components/DashBoard'
 
 const router = createBrowserRouter([
   {
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
       {
         path: '/contact',
         element: <Contact />
+      },
+      {
+        path: '/dashboard',
+        element: <DashBoard />  
       }
 
     ]

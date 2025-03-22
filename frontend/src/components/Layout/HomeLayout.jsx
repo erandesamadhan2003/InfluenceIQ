@@ -13,7 +13,7 @@ export const HeroSection = () => {
   const [search, setSearch] = useState("");
 
   return (
-    <section className="relative w-full h-screen flex items-center justify-center text-white bg-gradient-to-r from-gray-900 via-black to-gray-900">
+    <section className="relative w-full flex items-center justify-center h-screen text-white bg-gradient-to-r from-gray-900 via-black to-gray-900">
       {/* Background Overlay */}
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
 
@@ -117,7 +117,7 @@ export const KeyFeatures = () => {
   ];
 
   return (
-    <section className="py-16 bg-gray-900 text-white">
+    <section className="py-16 bg-black text-white">
       <motion.div
         className="text-center mb-12"
         initial={{ opacity: 0, y: -50 }}
@@ -178,7 +178,7 @@ export const HowItWorks = () => {
   ];
 
   return (
-    <section className="py-16 bg-gray-900 text-white">
+    <section className="py-16 bg-black text-white">
       <motion.div
         className="text-center mb-12"
         initial={{ opacity: 0, y: -50 }}
@@ -293,7 +293,7 @@ export const TrendingInfluencers = () => {
   };
 
   return (
-    <section className="py-16 bg-gray-900 text-white">
+    <section className="py-16 bg-black text-white">
       <motion.div
         className="text-center mb-12"
         initial={{ opacity: 0, y: -50 }}
@@ -408,7 +408,7 @@ export const Testimonials = () => {
   };
 
   return (
-    <section className="py-16 bg-gray-900 text-white text-center">
+    <section className="py-16 bg-black text-white text-center">
       <motion.h2
         className="text-3xl md:text-5xl font-bold"
         initial={{ opacity: 0, y: -50 }}
@@ -439,7 +439,7 @@ export const Testimonials = () => {
 
 export const CTASection = () => {
   return (
-    <section className="py-16 bg-gradient-to-r from-blue-700 to-purple-600 text-white text-center">
+    <section className="py-16 bg-black text-white text-center">
       <motion.h2
         className="text-3xl md:text-5xl font-bold"
         initial={{ opacity: 0, y: -50 }}

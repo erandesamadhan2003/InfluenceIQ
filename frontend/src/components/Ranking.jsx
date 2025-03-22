@@ -1,7 +1,13 @@
 import React from 'react'
+import { SidebarFilters } from './shared/RankingSideBar'
+import { HeroSection, InfluencerList } from './Layout/RankingLayout'
 
 export const Ranking = () => {
   return (
-    <div>Ranking</div>
+    <div>
+      <SidebarFilters />
+      <HeroSection />
+      <InfluencerList />
+    </div>
   )
 }
